@@ -9,8 +9,9 @@ import AppBar from './components/AppBar.vue'
       <AppBar />
     </header>
 
-    <main>
+    <v-main>
       <HomeIndex />
-    </main>
+    </v-main>
   </v-app>
 </template>
+

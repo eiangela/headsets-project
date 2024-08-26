@@ -1,13 +1,19 @@
 <template>
-  <v-app-bar :elevation="0">
+  <v-app-bar :elevation="0" class="pa-md-5">
     <v-container>
       <v-row>
         <v-col class="d-flex justify-center">
-          <img src="../assets/images/logo.png" class="logo-image" alt="Imagem do Logo" />
+          <img
+            src="../assets/images/logo.png"
+            class="logo-image"
+            width="auto"
+            height="36"
+            alt="Imagem do Logo"
+          />
         </v-col>
-
+y6 
         <v-col class="d-flex justify-center">
-          <v-app-bar-nav-icon class="nav-icon-right"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon class="nav-icon-right" ></v-app-bar-nav-icon>
         </v-col>
       </v-row>
     </v-container>

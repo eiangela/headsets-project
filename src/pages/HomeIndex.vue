@@ -1,3 +1,8 @@
+<script setup>
+import HeadsetIntro from '../components/HeadsetIntro.vue'
+</script>
 <template>
-    <h1>aqui ficará todo conteudo (envolvendo componentes)</h1>
+  <section class="headset-intro">
+    <HeadsetIntro />
+  </section>
 </template>
