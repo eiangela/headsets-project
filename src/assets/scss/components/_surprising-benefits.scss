@@ -1,0 +1,37 @@
+.surprising-benefits {
+  background-color: $purple;
+}
+
+.surprising-title,
+.surprising-descrip {
+  color: white;
+}
+
+.benefit-title {
+  color: $purple;
+}
+
+.benefit-descrip {
+  color: $purple-2;
+  line-height: 1.7 !important;
+  font-size: 18px !important;
+}
+
+.benefit-btn {
+  color: $purple !important;
+}
+
+.benefit-icon {
+  color: $purple;
+}
+
+@media ($mobile_device) {
+  .benefit-btn {
+    width: 104px;
+    height: 52px !important;
+  }
+
+  .surprising-descrip {
+    line-height: 1.7;
+  }
+}

@@ -10,8 +10,7 @@
             height="36"
             alt="Imagem do Logo"
           />
-        </v-col>
-y6 
+        </v-col> 
         <v-col class="d-flex justify-center">
           <v-app-bar-nav-icon class="nav-icon-right" ></v-app-bar-nav-icon>
         </v-col>

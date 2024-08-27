@@ -59,4 +59,27 @@
     width: 250px !important;
     height: 52px !important;
   }
+  .image-vr-head {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+    transform: none;
+  }
+
+  .vr-headsets-info {
+    width: 500px;
+  }
+}
+
+@media ($large_device) {
+  .image-vr-head {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+    transform: none;
+  }
+
+  .vr-headsets-info {
+    width: 500px;
+  }
 }
