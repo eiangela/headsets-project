@@ -3,12 +3,17 @@
 
 //all
 @import '../abstract/base';
+@import '../scss/vendor/vuetify.scss';
+@import 'fonts';
 
 //componentes
 @import '../scss/components/headset-intro';
 @import '../scss/components/surprising-benefits';
 @import '../scss/components/virtual-reality';
+@import '../scss/components/vr-benefits';
+@import '../scss/components/vr-bad';
 
-// body {
-//     font-family: $font-family !important;
-// }
+
+body {
+    font-family: $font-family;
+  }

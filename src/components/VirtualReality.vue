@@ -14,7 +14,10 @@
             while the VR experience. The technology is still new and requires investigation and
             research.
           </p>
-          <v-divider :thickness="1" class="border-opacity-100 mt-5 mt-md-5 mb-5 mb-md-5 virtual-divider"></v-divider>
+          <v-divider
+            :thickness="1"
+            class="border-opacity-100 mt-5 mt-md-5 mb-5 mb-md-5 virtual-divider"
+          ></v-divider>
         </v-col>
 
         <v-col class="d-flex align-center pa-0 pa-md-5 pa-lg-0 pa-lg-5" cols="12" sm="12" md="10">
@@ -40,5 +43,3 @@
     </v-container>
   </div>
 </template>
-
-<style></style>

@@ -1,0 +1,64 @@
+.container-vr {
+  width: 100%;
+  height: 750px;
+}
+
+.vr-bad-image {
+  background-image: url('@/assets/images/gfgg.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  scale: (1.2);
+}
+
+.vr-bad-title {
+  font-size: 40px;
+  color: $purple-2;
+  letter-spacing: 0.05em;
+}
+
+.vr-bad-description {
+  font-size: 20px;
+}
+
+.vr-bad-btn {
+  color: $purple !important;
+}
+
+@media ($mobile_device) {
+  .vr-bad-title {
+    font-size: 30px !important;
+  }
+
+  .vr-bad-description {
+    font-size: 18px;
+  }
+
+  .container-vr {
+    width: 100%;
+    height: 550px;
+  }
+
+  .vr-bad-image {
+    scale: none;
+  }
+}
+
+@media ($tablet_device) {
+  .container-vr {
+    height: 600px;
+  }
+
+  .vr-bad-title {
+    font-size: 26px !important;
+  }
+
+  .vr-bad-description {
+    font-size: 16px;
+  }
+
+  .vr-bad-image {
+    scale: (1.3);
+  }
+}

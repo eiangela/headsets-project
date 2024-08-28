@@ -1,0 +1,45 @@
+.vr-benefits {
+  background-color: $grey;
+}
+
+.vr-title,
+.vr-item-number {
+  color: $purple;
+}
+
+.vr-descrption {
+  color: $black-1;
+}
+
+.vr-card-description {
+  font-size: 18px !important;
+  color: $black-1;
+}
+
+.card-purple {
+  background-color: $purple !important;
+}
+
+.text-white-3 {
+  color: $white;
+}
+
+@media ($mobile_device) {
+  .vr-card-description {
+    font-size: 16px !important;
+  }
+
+  .vr-item-number {
+    font-size: 50px !important;
+  }
+}
+
+@media ($tablet_device) {
+  .vr-card-description {
+    font-size: 16px !important;
+  }
+
+  .vr-item-number {
+    font-size: 50px !important;
+  }
+}
