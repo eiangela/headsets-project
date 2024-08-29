@@ -20,11 +20,11 @@
             {{ benefit.title }}
           </v-card-title>
           <v-card-text class="mb-5 benefit-descrip"> {{ benefit.description }}</v-card-text>
-          <v-card-action class="d--flex justify-center">
+          <v-card-actions class="d--flex justify-center">
             <v-btn class="benefit-btn text-lowercase font-weight-bold" variant="outlined">
               More
             </v-btn>
-          </v-card-action>
+          </v-card-actions>
         </v-card>
       </v-col>
     </v-row>

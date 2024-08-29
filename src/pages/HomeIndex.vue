@@ -4,6 +4,7 @@ import SurprisinsBenefits from '../components/SurprisinsBenefits.vue'
 import VirtualReality from '../components/VirtualReality.vue'
 import VrBenefits from '../components/VrBenefits.vue'
 import VrBad from '../components/VrBad.vue'
+import TheVirtual from '../components/TheVirtual.vue'
 </script>
 
 <template>
@@ -25,5 +26,9 @@ import VrBad from '../components/VrBad.vue'
 
   <section class="vr-bad">
     <VrBad />
+  </section>
+
+  <section class="the-virtual">
+    <TheVirtual />
   </section>
 </template>

@@ -1,0 +1,24 @@
+.background-container {
+  background-image: url('@/assets/images/df.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+.the-virtual-title {
+  font-size: 62px !important;
+  color: $purple;
+  line-height: 1.2em !important;
+}
+
+.the-technology {
+  color: $purple;
+  font-size: 18px !important;
+  letter-spacing: 0.305em !important;
+}
+
+.the-virtual-btn {
+  color: $purple !important;
+}
