@@ -1,10 +1,31 @@
 .background-container {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+ 
+}
+
+.background-image {
   background-image: url('@/assets/images/df.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 650px;
-  position: relative;
+  height: 100%;
+  // transform: scale(1.2);
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .the-virtual-title {
@@ -22,3 +43,52 @@
 .the-virtual-btn {
   color: $purple !important;
 }
+
+@media ($mobile_device) {
+  .the-virtual-title {
+    font-size: 28px !important;
+  }
+
+  .background-container {
+    height: 540px;
+  }
+
+  .background-image {
+    transform: scale(1.4);
+    background-position: 85% !important;
+  }
+
+  .the-technology {
+    font-size: 14px !important;
+    background-size: 150% !important;
+  }
+
+  .the-virtual-card {
+    margin-top: 168px;
+  }
+}
+
+@media ($tablet_device) {
+  .the-virtual-title {
+    font-size: 38px !important;
+  }
+
+  .background-container {
+    height: 540px;
+    margin-top: 50px;
+  }
+
+  .background-image {
+    transform: scale(1.3);
+    background-position: 85% !important;
+  }
+  .the-virtual-card {
+    width: 500px;
+  }
+
+  .the-technology {
+    font-size: 14px !important;
+  }
+}
+
+
