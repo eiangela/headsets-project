@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column flex-sm-row flex-md-row mt-8">
+  <div class="d-flex flex-column flex-sm-row flex-md-row mt-8 mt-md-0">
     <v-container class="d-flex pa-0 justify-center" fluid>
       <v-row no-gutters>
         <v-col class="d-flex align-center justify-md-end" cols="12" md="12">

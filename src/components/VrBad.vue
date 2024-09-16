@@ -1,5 +1,5 @@
 <template>
-  <v-container class="d-flex flex-column align-sm-center flex-sm-row flex-md-row pa-6 pa-md-16">
+  <v-container class="d-flex flex-column align-sm-center flex-sm-row flex-md-row pa-6 pa-sm-8 ">
     <v-row class="d-flex flex-column justify-md-center align-md-center w-100">
       <v-col cols="12" sm="10" md="8">
         <v-avatar size="80" class="mb-5 mb-md-5">
@@ -23,7 +23,7 @@
         >
       </v-col>
     </v-row>
-    <div class="container-vr mt-5 pa-sm-10">
+    <div class="container-vr mt-5  mt-md-0 pa-sm-10 d-flex align-center justify-center">
       <div class="vr-bad-image"></div>
     </div>
   </v-container>

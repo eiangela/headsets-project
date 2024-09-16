@@ -5,6 +5,8 @@ import VirtualReality from '../components/VirtualReality.vue'
 import VrBenefits from '../components/VrBenefits.vue'
 import VrBad from '../components/VrBad.vue'
 import TheVirtual from '../components/TheVirtual.vue'
+import KeyEducation from '../components/KeyEducation.vue'
+import FooterSection from '../components/FooterSection.vue'
 </script>
 
 <template>
@@ -31,4 +33,12 @@ import TheVirtual from '../components/TheVirtual.vue'
   <section class="the-virtual">
     <TheVirtual />
   </section>
+
+  <section class="key-education">
+    <KeyEducation />
+  </section>
+
+  <footer class="footer-section">
+    <FooterSection />
+  </footer>
 </template>

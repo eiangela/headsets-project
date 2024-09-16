@@ -1,0 +1,54 @@
+.key-title {
+  font-size: 46px;
+  color: $purple;
+}
+
+.key-description {
+  font-size: 18px;
+  line-height: 2;
+  // width: auto;
+}
+
+.key-title-sub {
+  color: $purple;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.key-btn-chat {
+  color: $purple !important;
+}
+
+@media ($mobile_device) {
+  .key-description {
+    width: auto;
+  }
+
+  .key-title-sub {
+    font-size: 32px;
+  }
+}
+
+@media ($tablet_device) {
+  .key-title-sub {
+    font-size: 32px;
+  }
+
+  .key-title {
+    font-size: 28px;
+  }
+
+  .key-description {
+    font-size: 16px;
+  }
+}
+
+@media ($mid_device) {
+  .key-title-sub {
+    font-size: 48px;
+  }
+
+  .key-title {
+    font-size: 34px;
+  }
+}

@@ -1,8 +1,8 @@
 <template>
-  <div class="container-surprising text-center pa-10 pa-md-16">
+  <div class="container-surprising text-center pa-2  pa-md-0">
     <div>
-      <h2 class="text-h3 text-md-h2 mb-5 surprising-title">VR's Surprising Benefits</h2>
-      <p class="text-md-h6 surprising-descrip">
+      <h2 class="mb-5 surprising-title">VR's Surprising Benefits</h2>
+      <p class="mb-5 surprising-descrip">
         Sample text. Click to select the text box. Click again or double click to start editing the
         text.
       </p>

@@ -1,10 +1,20 @@
 .surprising-benefits {
   background-color: $purple;
+  padding: 3%;
 }
 
 .surprising-title,
 .surprising-descrip {
   color: white;
+}
+
+.surprising-title {
+  font-size: 3.75rem;
+  font-weight: 400;
+}
+
+.surprising-descrip {
+  font-size: 1.25rem;
 }
 
 .benefit-title {
@@ -31,7 +41,12 @@
     height: 52px !important;
   }
 
+  .surprising-title {
+    font-size: 2.25rem;
+  }
+
   .surprising-descrip {
     line-height: 1.7;
+    font-size: 1.125rem;
   }
 }

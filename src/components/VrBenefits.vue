@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" class="pa-8">
+      <v-col cols="12">
         <h4 class="text-center mb-4 text-h4 text-md-h3 vr-title">VR's Surprising Benefits</h4>
         <p class="text-center text-h6 text-md-h6 mt-md-8 vr-descrption">
           Sample text. Click to select the text box. Click again or double click to start editing
