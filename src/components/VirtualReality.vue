@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column flex-md-row justify-md-center align-center pa-6 pa-sm-16 pa-md-16">
-    <div class="container-virtual">
+    <div class="container-virtual mb-5">
       <div class="virtual-image"></div>
     </div>
 
